@@ -1,0 +1,24 @@
+RavenMart Sarees - FIXED VERSION
+
+FIXES INCLUDED
+1. Fixed Django seed_products.py so Product.image is never saved as NULL.
+2. Sarees 1-23 now have local JPG image paths.
+3. Added the 3 newest user-supplied saree photos as saree-17.jpg, saree-18.jpg, saree-19.jpg.
+4. Frontend SAREE_IMAGES now maps all 23 products to local files instead of only 21-23.
+5. Removed the saree placeholder-image problem from the local fallback catalog.
+
+RUN BACKEND
+cd backend
+python manage.py migrate
+python manage.py seed_products
+python manage.py runserver
+
+RUN FRONTEND (new terminal)
+cd frontend
+npm install
+npm run dev
+
+OPEN
+http://localhost:5173/shop?category=sarees
+
+If Vite uses 5174, open the URL printed in the terminal.

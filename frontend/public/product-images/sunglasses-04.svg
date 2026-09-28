@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(68,80%,95%)"/><stop offset="1" stop-color="hsl(113,70%,82%)"/></linearGradient></defs>
+<rect width="700" height="700" rx="36" fill="url(#g)"/><circle cx="570" cy="120" r="90" fill="white" opacity=".45"/>
+<rect x="48" y="48" width="604" height="604" rx="30" fill="white" opacity=".62"/>
+<text x="350" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#141414">RAVENMART</text>
+<text x="350" y="555" text-anchor="middle" font-family="Arial,sans-serif" font-size="52" font-weight="800" fill="#141414">SUNGLASSES</text>
+<text x="350" y="600" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#555">Premium Collection · 04</text>
+<g transform="translate(190 205)" fill="#15191d" opacity=".92"><circle cx="105" cy="140" r="65"/><circle cx="245" cy="140" r="65"/><path d="M170 140h10M40 105L10 75M310 105l30-30" stroke="#15191d" stroke-width="18"/></g></svg>

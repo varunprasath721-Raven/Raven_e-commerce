@@ -1,0 +1,9 @@
+RavenMart Mobile Images Update
+
+20 real mobile product images from the user's uploaded image set are installed in:
+frontend/public/product-images/mobiles/
+
+Files: mobile-01.jpg through mobile-20.jpg
+
+The React frontend maps all 20 mobile products to these local images, including API-loaded products.
+The Django seed_products command also uses the same 20 local image paths.

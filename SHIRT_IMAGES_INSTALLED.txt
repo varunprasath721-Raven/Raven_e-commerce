@@ -1,0 +1,3 @@
+RavenMart Shirts category updated with 19 user-provided real shirt photos.
+Frontend: frontend/public/product-images/shirts/shirt-01.jpg through shirt-19.jpg
+Django seed_products.py assigns these photos to the Shirts category.

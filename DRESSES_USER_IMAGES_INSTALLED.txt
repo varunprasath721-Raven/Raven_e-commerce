@@ -1,0 +1,22 @@
+RavenMart Dresses Category - User Images Installed
+
+This build uses the 19 uploaded user images in the Dresses category.
+Files:
+  frontend/public/product-images/dresses/dress-01.jpg ... dress-19.jpg
+
+The Django seed command creates exactly 19 Dresses products and points each
+product at the corresponding local image.
+
+Run:
+  cd backend
+  python manage.py migrate
+  python manage.py seed_products
+  python manage.py runserver
+
+Then run the frontend with:
+  cd frontend
+  npm install
+  npm run dev
+
+Note: the uploaded set contained 19 images, so this build keeps 19 unique
+Dresses products rather than inventing a 20th image.

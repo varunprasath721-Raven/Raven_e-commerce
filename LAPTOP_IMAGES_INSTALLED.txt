@@ -1,0 +1,3 @@
+RavenMart laptop category updated to 20 real-product laptop entries.
+Local image files are in frontend/public/product-images/laptops/.
+Five additional model images use real product image URLs in the React and Django laptop mappings.

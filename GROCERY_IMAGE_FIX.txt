@@ -1,0 +1,23 @@
+GROCERY IMAGE FIX
+==================
+
+Fixed issue where Grocery products were displaying the same Vivo/mobile image.
+
+Changes:
+1. Copied all 20 grocery images into frontend/public/product-images/grocery/.
+2. Updated frontend/src/main.jsx to force Grocery products to use grocery-01.jpg through grocery-20.jpg based on product name/category.
+3. This prevents stale/wrong backend image paths from replacing Grocery images.
+
+After extracting:
+frontend:
+  npm install
+  npm run dev
+
+backend:
+  python manage.py migrate
+  python manage.py runserver
+
+Open:
+  http://localhost:5173/shop?category=grocery
+
+If the old page is still open, hard refresh with Ctrl+Shift+R.

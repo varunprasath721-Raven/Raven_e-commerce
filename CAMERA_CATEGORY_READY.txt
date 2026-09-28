@@ -1,0 +1,20 @@
+RavenMart Camera Category Ready
+===============================
+
+Electronics -> Cameras now contains 20 local product images:
+frontend/public/product-images/cameras/camera-01.jpg ... camera-20.jpg
+
+Backend seed: 20 camera products
+Frontend fallback: 20 camera products
+Category URL: /shop?category=cameras
+
+Run backend:
+cd backend
+python manage.py migrate
+python manage.py seed_products
+python manage.py runserver
+
+Run frontend in another terminal:
+cd frontend
+npm install
+npm run dev

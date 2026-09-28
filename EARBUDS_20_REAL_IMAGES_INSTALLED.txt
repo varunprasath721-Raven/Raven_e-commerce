@@ -1,0 +1,19 @@
+RavenMart - Earbuds Real Images Update
+
+Earbuds category now uses 20 real product-photo assets under:
+frontend/public/product-images/earbuds/
+
+The frontend fallback catalog and Django seed_products command were updated to use these local images.
+
+Run backend:
+  cd backend
+  python manage.py migrate
+  python manage.py seed_products
+  python manage.py runserver
+
+Run frontend in a second terminal:
+  cd frontend
+  npm install
+  npm run dev
+
+Note: 19 photos were supplied as separate image uploads in this chat; the 20th local slot is an alternate copy of the first supplied Redmi Buds 6 photo so the category contains exactly 20 local image files.

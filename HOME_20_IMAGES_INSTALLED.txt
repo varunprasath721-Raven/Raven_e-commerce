@@ -1,0 +1,1 @@
+Home category updated with 19 uploaded user images as home-01.jpg through home-19.jpg and the existing project home-20.svg retained as item 20. Seed data and frontend category image mapping were updated.

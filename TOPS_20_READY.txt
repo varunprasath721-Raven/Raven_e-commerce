@@ -1,0 +1,27 @@
+RAVENMART - TOPS CATEGORY READY (EXACTLY 20 PRODUCTS)
+
+This project is configured with exactly 20 products in the Tops category.
+All 20 Tops use local images:
+/product-images/tops/top-01.jpg through /product-images/tops/top-20.jpg
+
+Tops product count: 20
+Tops prices: ₹349–₹799
+Tops sizes: S, M, L, XL, XXL
+
+To load the products:
+1. cd backend
+2. python manage.py makemigrations
+3. python manage.py migrate
+4. python manage.py seed_products
+5. python manage.py runserver
+
+Frontend:
+1. cd frontend
+2. npm install
+3. npm run dev
+
+Frontend: http://localhost:5173/
+Backend: http://127.0.0.1:8000/
+
+IMPORTANT:
+Run seed_products after extracting the ZIP. The seed command clears the existing database and recreates the catalogue, including exactly 20 Tops products.

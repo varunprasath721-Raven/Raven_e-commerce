@@ -1,0 +1,20 @@
+RavenMart Beauty Category Update
+
+Beauty category now contains exactly 20 product image files:
+frontend/public/product-images/beauty/beauty-01.jpg ... beauty-20.jpg
+backend/store/static/product-images/beauty/beauty-01.jpg ... beauty-20.jpg
+
+The current upload contained 19 beauty images. Images 01-19 are those supplied in the chat. Image 20 is a rasterized copy of the project's existing beauty-20.svg placeholder so the category has 20 working products. Replace beauty-20.jpg if you upload the missing 20th image later.
+
+Backend:
+  cd backend
+  python manage.py seed_products
+  python manage.py runserver
+
+Frontend:
+  cd frontend
+  npm install
+  npm run dev
+
+Beauty URL:
+  http://localhost:5173/shop?category=beauty

@@ -1,0 +1,15 @@
+RavenMart Shoes Category - 25 Products
+
+- Shoes category contains exactly 25 products.
+- Images: frontend/public/product-images/shoes/shoe-01.jpg through shoe-25.jpg
+- shoe-26.jpg and shoe-27.jpg are intentionally excluded.
+
+Run from backend:
+python manage.py migrate
+python manage.py seed_products
+python manage.py runserver
+
+Then run frontend:
+cd frontend
+npm install
+npm run dev

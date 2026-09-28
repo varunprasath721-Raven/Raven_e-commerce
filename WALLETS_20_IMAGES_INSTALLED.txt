@@ -1,0 +1,10 @@
+RavenMart Wallet Category Update
+================================
+Wallet category now contains 20 local JPG product images at:
+frontend/public/product-images/wallets/wallet-01.jpg ... wallet-20.jpg
+
+The seed_products command was updated to create 20 wallet products using these local images,
+with wallet names, brands, prices and MRP values.
+
+Note: 15 wallet photos were supplied in this upload. Five additional matching catalog variants
+were created from the supplied wallet photos to complete the requested 20-image category.

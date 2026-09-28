@@ -1,0 +1,16 @@
+RavenMart Camera Category
+==========================
+20 local camera product images are installed in:
+frontend/public/product-images/cameras/
+
+Files:
+camera-01.jpg through camera-20.jpg
+
+The Django seed command creates 20 Electronics > Cameras products using these local images.
+The React fallback catalogue also uses the same local images.
+
+Run:
+cd backend
+python manage.py migrate
+python manage.py seed_products
+python manage.py runserver

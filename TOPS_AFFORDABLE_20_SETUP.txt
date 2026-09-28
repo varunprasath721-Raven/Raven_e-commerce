@@ -1,0 +1,43 @@
+RAVENMART - TOPS CATEGORY (20 PRODUCTS)
+
+This version has exactly 20 Tops products using the supplied Tops photos:
+/product-images/tops/top-01.jpg through top-20.jpg
+
+Affordable prices:
+1 ₹399
+2 ₹549
+3 ₹699
+4 ₹449
+5 ₹499
+6 ₹599
+7 ₹799
+8 ₹649
+9 ₹399
+10 ₹449
+11 ₹699
+12 ₹349
+13 ₹599
+14 ₹499
+15 ₹699
+16 ₹799
+17 ₹749
+18 ₹399
+19 ₹699
+20 ₹399
+
+Run backend:
+cd backend
+python manage.py makemigrations
+python manage.py migrate
+python manage.py seed_products
+python manage.py runserver
+
+Run frontend in another terminal:
+cd frontend
+npm install
+npm run dev
+
+Frontend: http://localhost:5173/
+Backend: http://127.0.0.1:8000/
+
+IMPORTANT: run seed_products after extracting this ZIP so the database receives the 20 Tops products and affordable prices.

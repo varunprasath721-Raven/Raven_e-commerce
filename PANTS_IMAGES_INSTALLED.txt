@@ -1,0 +1,13 @@
+RavenMart Pants Image Pack
+
+17 real pants/trousers photos supplied by the user are installed in frontend/public/product-images/pants/.
+The Pants category is seeded with 17 products using these local images.
+
+Run backend:
+  python manage.py migrate
+  python manage.py seed_products
+  python manage.py runserver
+
+Run frontend:
+  npm install
+  npm run dev

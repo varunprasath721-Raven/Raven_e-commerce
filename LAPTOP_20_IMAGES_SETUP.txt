@@ -1,0 +1,50 @@
+RavenMart - Laptop Category (20 Products)
+===========================================
+
+The laptop category now contains 20 products:
+1. Dell Inspiron 15
+2. Dell XPS 13
+3. HP 15s
+4. HP Pavilion 14
+5. HP Victus
+6. Lenovo IdeaPad Slim 3
+7. Lenovo ThinkPad E14
+8. Lenovo LOQ
+9. ASUS VivoBook 15
+10. ASUS TUF Gaming
+11. ASUS ROG Strix
+12. Acer Aspire 5
+13. Acer Nitro V
+14. MSI Modern 14
+15. MSI Gaming Laptop
+16. Apple MacBook Air M2
+17. Apple MacBook Air M3
+18. Apple MacBook Pro 14
+19. Samsung Galaxy Book
+20. Microsoft Surface Laptop
+
+15 product photos are included locally under:
+frontend/public/product-images/laptops/
+
+The five additional real product photos are referenced by direct image URLs
+in both the React laptop image map and Django seed_products.py:
+- HP Victus
+- Lenovo IdeaPad Slim 3
+- ASUS TUF Gaming
+- MSI Gaming Laptop
+- Microsoft Surface Laptop
+
+After extracting:
+1. Backend:
+   cd backend
+   pip install -r requirements.txt
+   python manage.py migrate
+   python manage.py seed_products
+   python manage.py runserver
+
+2. Frontend:
+   cd frontend
+   npm install
+   npm run dev
+
+If the browser has cached old products, clear localStorage or use a fresh browser session.

@@ -1,0 +1,30 @@
+RavenMart Admin Dashboard Fix
+==============================
+
+Fixed the admin dashboard navigation so the sidebar buttons are real React Router links.
+
+Routes:
+  /admin-dashboard
+  /admin-dashboard/products
+  /admin-dashboard/orders
+  /admin-dashboard/users
+  /admin-dashboard/categories
+  /admin-dashboard/reviews
+  /admin-dashboard/coupons
+  /admin-dashboard/settings
+
+Features:
+- Functional sidebar navigation
+- Product listing, add product, delete product
+- Order listing and status update
+- Users derived from completed orders
+- Category list, add and delete
+- Reviews admin information panel
+- Coupons stored in localStorage
+- Store settings stored in localStorage
+- Responsive mobile admin navigation
+
+Run:
+1. Backend: cd backend && python manage.py migrate && python manage.py seed_products && python manage.py runserver
+2. Frontend: cd frontend && npm install && npm run dev
+3. Open http://localhost:5173/admin-dashboard

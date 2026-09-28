@@ -1,0 +1,21 @@
+RavenMart Tops Category - 20 product image setup
+
+- Added 20 JPG product images under frontend/public/product-images/tops/
+- Tops products are wired into the React fallback catalogue.
+- Django seed_products.py now uses the same 20 local images for the Tops category.
+- Django API auto-seed check also refreshes the catalogue if Tops images are missing.
+- top-20.jpg is a crop/variant of the first supplied image because the uploaded set contained 19 unique image files.
+
+Run backend:
+  cd backend
+  pip install -r requirements.txt
+  python manage.py migrate
+  python manage.py seed_products
+  python manage.py runserver
+
+Run frontend in a second terminal:
+  cd frontend
+  npm install
+  npm run dev
+
+Open the frontend URL shown by Vite and select Shop -> Tops.

@@ -1,0 +1,32 @@
+RavenMart Jeans category updated with 14 real user-supplied jeans photos.
+
+Images:
+frontend/public/product-images/jeans/jeans-01.jpg
+frontend/public/product-images/jeans/jeans-02.jpg
+frontend/public/product-images/jeans/jeans-03.jpg
+frontend/public/product-images/jeans/jeans-04.jpg
+frontend/public/product-images/jeans/jeans-05.jpg
+frontend/public/product-images/jeans/jeans-06.jpg
+frontend/public/product-images/jeans/jeans-07.jpg
+frontend/public/product-images/jeans/jeans-08.jpg
+frontend/public/product-images/jeans/jeans-09.jpg
+frontend/public/product-images/jeans/jeans-10.jpg
+frontend/public/product-images/jeans/jeans-11.jpg
+frontend/public/product-images/jeans/jeans-12.jpg
+frontend/public/product-images/jeans/jeans-13.jpg
+frontend/public/product-images/jeans/jeans-14.jpg
+
+The Django seed command now creates 14 Jeans products using these images. The frontend local fallback also uses the same images.
+
+Run backend:
+  cd backend
+  pip install -r requirements.txt
+  python manage.py migrate
+  python manage.py runserver
+
+Run frontend in another terminal:
+  cd frontend
+  npm install
+  npm run dev
+
+Open: http://localhost:5173/shop?category=jeans

@@ -1,0 +1,15 @@
+RavenMart T-Shirt Images Installed
+==================================
+20 user-provided T-shirt product images are stored in:
+frontend/public/product-images/tshirts/tshirt-01.jpg ... tshirt-20.jpg
+
+The Django seed command uses these exact local frontend image paths for the T-Shirts category.
+The frontend local fallback also uses the same 20 images.
+
+After extracting:
+1. cd backend
+2. python manage.py migrate
+3. python manage.py seed_products
+4. python manage.py runserver
+5. Open a second terminal: cd frontend && npm install && npm run dev
+6. Visit: http://localhost:5173/shop?category=tshirts

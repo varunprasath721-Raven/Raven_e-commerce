@@ -1,0 +1,31 @@
+RavenMart Toys Category - 20 Real Product Images Installed
+
+1. Classic Teddy Bear Plush Toy
+2. Remote Control Off-Road Racing Car
+3. Dinosaur T-Rex Action Toy
+4. Colorful Building Blocks Castle Set
+5. Kids Animal Jigsaw Puzzle
+6. Pretty Doll in Pink Dress
+7. Wild Animal Figure Set
+8. Colorful Toy Train Set
+9. Red Sports Racing Toy Car
+10. Interactive Robot Toy
+11. Princess Castle Play Set
+12. Little Chef Kids Kitchen Set
+13. Creative Kids Drawing & Art Kit
+14. Magical Unicorn Plush Toy
+15. Kids Toy Airplane
+16. Magic Tricks Pretend Play Set
+17. Kids Football
+18. Baby Puppy Soft Toy
+19. Kids Science Experiment Kit
+20. Kids Dart Target Game
+
+Frontend images: frontend/public/product-images/toys/toy-01.jpg through toy-20.jpg
+Backend static copies: backend/store/static/product-images/toys/toy-01.jpg through toy-20.jpg
+Run from backend folder:
+  python manage.py seed_products
+Run frontend:
+  cd frontend
+  npm install
+  npm run dev

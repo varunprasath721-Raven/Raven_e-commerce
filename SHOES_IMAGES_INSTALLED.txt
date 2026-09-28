@@ -1,0 +1,5 @@
+RavenMart Shoes Images
+======================
+25 user-supplied shoe pair photos were added under frontend/public/product-images/shoes/.
+The Women > Shoes seed category uses all 25 images. Frontend local fallback also uses the 25 images.
+Run backend seed_products after migrating to load the updated catalog.

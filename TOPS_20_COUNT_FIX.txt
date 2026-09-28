@@ -1,0 +1,15 @@
+RavenMart Tops count fix
+
+This version fixes the Tops listing so it shows exactly 20 products.
+
+Backend:
+- Tops API uses the exact category name `Tops`.
+- Tops API is capped at 20 results.
+
+Frontend:
+- Tops API/fallback results are capped at 20.
+- The heading count therefore displays TOPS (20).
+
+Important:
+- The project contains exactly 20 Tops image files: top-01.jpg through top-20.jpg.
+- If an old local database contains 40 Tops records, the API listing still returns only the first 20 Tops records. Running `python manage.py seed_products` will rebuild the complete catalog from the included seed command.

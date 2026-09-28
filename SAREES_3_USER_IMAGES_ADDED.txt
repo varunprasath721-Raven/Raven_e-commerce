@@ -1,0 +1,8 @@
+RavenMart update: 3 additional user-supplied saree photos were added to the Sarees category.
+
+New files:
+- frontend/public/product-images/sarees/saree-21.jpg — Emerald Green Kanjivaram Silk Saree
+- frontend/public/product-images/sarees/saree-22.jpg — Royal Blue Silk Saree
+- frontend/public/product-images/sarees/saree-23.jpg — Blush Pink Organza Saree
+
+The Django seed command now creates 23 Sarees products and uses these local images for products 21-23.

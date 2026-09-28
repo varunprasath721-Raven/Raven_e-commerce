@@ -1,0 +1,15 @@
+RavenMart Caps Category — 20 Images
+
+20 cap product images are installed in both:
+- frontend/public/product-images/caps/cap-01.jpg ... cap-20.jpg
+- backend/store/static/product-images/caps/cap-01.jpg ... cap-20.jpg
+
+The Caps category is wired into the Django seed_products command and React local fallback.
+Run:
+  cd backend
+  python manage.py migrate
+  python manage.py seed_products
+  python manage.py runserver
+Then start the frontend with npm install and npm run dev.
+
+Note: 19 cap photos were supplied in the upload; cap-20.jpg is a derived charcoal variant created from the first supplied cap photo to complete the requested 20-product category.

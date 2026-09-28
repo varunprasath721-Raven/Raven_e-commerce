@@ -1,0 +1,6 @@
+RavenMart Grocery Category - 20 Images Installed
+19 grocery product images supplied by the user were installed as grocery-01.jpg through grocery-19.jpg.
+grocery-20.jpg is a project-original Moong Dal product image added so the category contains exactly 20 products.
+Category: Grocery
+Static path: backend/store/static/product-images/grocery/
+Run: python manage.py seed_products

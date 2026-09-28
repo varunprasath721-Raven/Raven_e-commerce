@@ -1,0 +1,13 @@
+RavenMart Perfume Category - FIXED
+
+Fix applied:
+- Fixed frontend/src/main.jsx syntax error in PERFUME_NAMES.
+- Perfume names containing apostrophes (Men's) are now valid JavaScript strings.
+- 20 perfume images are installed at frontend/public/product-images/perfumes/.
+
+Run:
+1. cd frontend
+2. npm install
+3. npm run dev
+
+Then open the Vite localhost URL shown in the terminal.

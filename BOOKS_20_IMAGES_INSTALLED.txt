@@ -1,0 +1,27 @@
+RavenMart Books Category - 20 Images Installed
+===============================================
+1. React Up & Running
+2. Database Management Systems
+3. Deep Learning: Neural Networks and AI
+4. Web Development Full Stack Guide
+5. Data Science: Concepts, Tools and Real-World Projects
+6. JavaScript: The Complete Guide
+7. C Programming Mastery
+8. Web Development: A Complete Guide
+9. TypeScript Modern JavaScript Development
+10. HTML & CSS Modern Web Design
+11. SQL & Database Design
+12. Git & GitHub Version Control Essentials
+13. Excel Data Analysis
+14. Personal Finance for Beginners
+15. Machine Learning
+16. Python Programming for Beginners
+17. Data Science for Beginners
+18. Cybersecurity: A Practical Guide
+19. Java Programming Complete Developer Guide
+20. Django Web Development
+
+Frontend: frontend/public/product-images/books/
+Backend:  backend/store/static/product-images/books/
+
+The existing Books category is wired to these 20 products in the React local catalogue and Django seed_products command.

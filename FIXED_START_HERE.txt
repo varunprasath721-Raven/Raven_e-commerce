@@ -1,0 +1,44 @@
+RAVENMART - REAL MOBILE PRODUCT IMAGE VERSION
+
+1) Backend
+cd backend
+venv\Scripts\activate
+python manage.py migrate
+python manage.py seed_products
+python manage.py runserver
+
+2) Frontend (new terminal)
+cd frontend
+npm install
+npm run dev
+
+3) Open the URL shown by Vite (5173 or 5174).
+
+MOBILE IMAGE UPDATE:
+The Mobiles category now uses the real product photos supplied with this project, stored locally under:
+frontend/public/product-images/mobiles/
+
+The supplied photos are mapped to these 15 models:
+1. Apple iPhone 16
+2. Samsung Galaxy S25+
+3. Samsung Galaxy S24 Ultra
+4. Vivo X100
+5. Apple iPhone 15
+6. Vivo V40
+7. OnePlus 12R
+8. OPPO Reno12
+9. Xiaomi 14 Civi
+10. Xiaomi 14
+11. Apple iPhone 15 Pro
+12. OnePlus 13
+13. Redmi Note 14 Pro
+14. Samsung Galaxy S25
+15. OnePlus 12
+
+The frontend local catalog and Django seed data both use these local image paths, so the supplied mobile photos remain available without depending on external image URLs.
+
+The remaining five mobile models in the 20-product catalog keep the project's existing fallback images until separate photos are supplied for those models.
+
+
+LAPTOP IMAGE UPDATE:
+The Laptops category now uses the 15 real laptop photos supplied in this upload. They are stored under frontend/public/product-images/laptops/ and mapped to Dell, HP, Lenovo, ASUS, Acer, MSI, Apple and Samsung laptop models. The Django seed command creates 15 laptop products to match the 15 supplied photos. Run python manage.py seed_products after replacing the project files.

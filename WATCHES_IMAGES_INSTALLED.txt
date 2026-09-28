@@ -1,0 +1,43 @@
+RavenMart Smartwatch Category - 20 Images
+========================================
+
+The Watches category now uses the uploaded smartwatch photos in:
+frontend/public/product-images/watches/watch-01.jpg through watch-20.jpg
+
+Products:
+1. Apple Watch
+2. Samsung Galaxy Watch
+3. OnePlus Watch
+4. Amazfit GTR
+5. Garmin Venu
+6. Huawei Watch
+7. boAt Enigma
+8. boAt Storm
+9. Noise ColorFit
+10. Fire-Boltt Ninja
+11. Fire-Boltt Phoenix
+12. Fastrack Revoltt
+13. Titan Celestor
+14. Google Pixel Watch
+15. Redmi Watch
+16. Xiaomi Watch
+17. Realme Watch
+18. Honor Watch
+19. CMF Watch
+20. Fossil Smartwatch
+
+Note: 19 image files were attached in the upload, so watch-20.jpg is a cropped variant of the first uploaded image to keep the requested 20-product catalogue complete.
+
+Run:
+  cd backend
+  python manage.py migrate
+  python manage.py seed_products
+  python manage.py runserver
+
+Frontend:
+  cd frontend
+  npm install
+  npm run dev
+
+Open:
+  http://localhost:5173/shop?category=watches

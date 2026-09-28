@@ -1,0 +1,2 @@
+FIX: Added backend/store/migrations/__init__.py so Django detects the store migrations.
+After extracting, delete backend/db.sqlite3 if present, then run: python manage.py migrate && python manage.py seed_products
